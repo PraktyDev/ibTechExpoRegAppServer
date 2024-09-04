@@ -1,0 +1,16 @@
+{ 
+    "version": 1,
+    "name": "IbadanTechExpo Backend",
+    "routes": [
+        { 
+            "src": "/(.*)",
+            "dest": "/app.js"
+        }
+    ],
+    "builds": [
+        { 
+            "src": "/app.js",
+            "use": "@vercel/node"
+        }
+    ] 
+}
